@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="main">
+    <!--Nav-bar-->
+    <header class="header" id="header">
+      <div class="header-inner">
+        <div class="nav-bar">
+          <a href="index.html" class="nav-link">
+            <i class="fas fa-home"></i>
+          </a>
+          <a href="index.html" class="nav-link">ABOUT US</a>
+          <a href="products.html" class="nav-link">Products</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+        <!--Burger-menu-->
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+        <div class="nav-socials">
+          <a class="color1" href="#"
+            ><i class="fab fa-facebook-f" id="facebook"></i
+          ></a>
+          <a class="color2" href="#"
+            ><i class="fab fa-instagram" id="instagram"></i
+          ></a>
+          <a class="color3" href="#"><i class="fas fa-at" id="email"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!--CONTACT-->
+    <section class="contact">
+      <div class="contact-inner">
+        <div class="contact-column1">
+          <div class="contact-image">
+            <img src="ContactImg/Image.png" alt="tarta cu afine" />
+          </div>
+          <div class="contact-text">
+            <h2><span>You can</span>find it at:</h2>
+            <div class="contact-categories">
+              <div class="contact-line">
+                <i class="fas fa-map-marker-alt"></i>
+                <p class="contact-address">str.31 august, 5-of.312</p>
+              </div>
+
+              <div class="contact-line">
+                <i class="fas fa-phone"></i>
+                <p class="contact-address">123456789</p>
+              </div>
+
+              <div class="contact-line">
+                <i class="fas fa-at"></i>
+                <p class="contact-address">xyz@gmail.com</p>
+              </div>
+            </div>
+            <!--/.contact-categories-->
+            <div class="contact-details">
+              <p class="contact-detail">
+                No deliveries are made to Bisous. In order to pick up a product, your presence in our headquarters is required.
+              </p>
+              <p class="contact-detail">
+                We also take orders for cakes and other custom products.
+              </p>
+            </div>
+            <p class="contact-copyrights">© 2020 Bisous.All rights reserved</p>
+          </div>
+          <!--/.contact-text-->
+        </div>
+        <!--/.contact-column1-->
+
+        <div class="contact-column2">
+          <form action="" class="contact-form">
+            <h2 class="contact-title">Contact Us
+            </h2>
+            <p class="contact-sentence">
+              Fill out this form and we will contact you as soon as possible!
+            </p>
+            
+            <div class="form-inputs">
+                <div class="input">
+            <input id="name" type="text" name="name" required />
+            <label class="contact-label" for="name"><span>Full name</span></label></div></br>
+            <div class="input">
+            <input id="phone" type="text" name="phone" required />
+            <label class="contact-label" for="phone"><span>Contact phone
+            </span></label></div></br>
+            <div class="input">
+            <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="12" required
+          ></textarea>
+            <label class="contact-label" for="message"><span>Message</span></label></div></br>
+            
+            <div class="button-wrapper">
+            <button class="contact-button">SEND</button></div>
+        </div>
+          </form>
+        </div>
+        <!--/.contact-column2-->
+      </div>
+      <!--/.contact-inner-->
+    </section>
+  </div><!--/.main-->
+    <script src="app2.js"></script>
+  </body>
+</html>
